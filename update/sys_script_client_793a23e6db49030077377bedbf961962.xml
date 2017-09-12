@@ -9,7 +9,7 @@
         <global>true</global>
         <messages>Thank you for loading the NeedIt app form. When you close this alert you will able to interact with the form</messages>
         <name>Set logged in user for requested for</name>
-        <order/>
+        <order>100</order>
         <script><![CDATA[function onLoad() {
 	
 	//Type appropriate comment here, and begin script below
@@ -19,6 +19,13 @@
 		var user = g_user.userID;
 		g_form.setValue('u_requested_for', user);
 	}
+	
+// 	var userRecord = g_form.getReference('u_requested_for', callback);
+	
+// 	function callback(userRecord) {
+// 		if (userRecord)
+// 			alert('email_address'+ userRecord.email);
+// 	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -27,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>793a23e6db49030077377bedbf961962</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Set logged in user for requested for</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_74173_needit">0a51c026db85030077377bedbf96191b</sys_package>
@@ -36,7 +43,7 @@
         <sys_scope display_value="NeedIt">0a51c026db85030077377bedbf96191b</sys_scope>
         <sys_update_name>sys_script_client_793a23e6db49030077377bedbf961962</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-10 11:55:05</sys_updated_on>
+        <sys_updated_on>2017-09-12 17:21:51</sys_updated_on>
         <table>x_74173_needit_needit</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
