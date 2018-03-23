@@ -24,6 +24,25 @@
             <dependent_value/>
             <element>u_what_needed</element>
             <hint/>
+            <inactive>false</inactive>
+            <label>Legal 2</label>
+            <language>en</language>
+            <name>x_74173_needit_needit</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-14 16:40:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c209da00db95030077377bedbf961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-14 16:40:56</sys_updated_on>
+            <value>Legal 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
             <inactive>true</inactive>
             <label>Legal 1</label>
             <language>en</language>
@@ -180,7 +199,7 @@
             <sys_created_on>2017-09-09 17:11:07</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>16b2bfaedb49030077377bedbf961916</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_name>u_what_needed</sys_name>
             <sys_package display_value="NeedIt" source="x_74173_needit">0a51c026db85030077377bedbf96191b</sys_package>
             <sys_policy/>
@@ -188,7 +207,7 @@
             <sys_scope display_value="NeedIt">0a51c026db85030077377bedbf96191b</sys_scope>
             <sys_update_name>sys_choice_x_74173_needit_needit_u_what_needed</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 14:42:13</sys_updated_on>
+            <sys_updated_on>2017-09-14 16:40:56</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

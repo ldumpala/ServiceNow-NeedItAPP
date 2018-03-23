@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>test</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_74173_needit.test</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>test</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-16 10:27:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f2a8673fdb23030077377bedbf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_74173_needit.test</sys_name>
+        <sys_package display_value="NeedIt" source="x_74173_needit">0a51c026db85030077377bedbf96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">0a51c026db85030077377bedbf96191b</sys_scope>
+        <sys_update_name>sys_user_role_f2a8673fdb23030077377bedbf9619ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-16 10:27:32</sys_updated_on>
+    </sys_user_role>
+</record_update>

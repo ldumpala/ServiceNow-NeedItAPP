@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":["ab54b2e1db63030077377bedbf9619ef"],"stages":{},"activities":{},"ends":["bd457669db63030077377bedbf9619bb"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description>First work flow</description>
+        <expected_sequences>b5457669db63030077377bedbf9619bb,b516f669db63030077377bedbf96194a,a0f67aa9db63030077377bedbf961935,bd457669db63030077377bedbf9619bb</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>b5457669db63030077377bedbf9619bb,b516f669db63030077377bedbf96194a,a0f67aa9db63030077377bedbf961935,bd457669db63030077377bedbf9619bb</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>First work flow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">b5457669db63030077377bedbf9619bb</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 06:56:30</sys_created_on>
+        <sys_id>9425f269db63030077377bedbf9619a4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:08:18</sys_updated_on>
+        <table>x_74173_needit_needit</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="First work flow">b1457669db63030077377bedbf9619bb</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>First work flow</description>
+        <name>First work flow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 06:56:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1457669db63030077377bedbf9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>First work flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_74173_needit">0a51c026db85030077377bedbf96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">0a51c026db85030077377bedbf96191b</sys_scope>
+        <sys_update_name>wf_workflow_b1457669db63030077377bedbf9619bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 06:56:30</sys_updated_on>
+        <table>x_74173_needit_needit</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 06:56:30</sys_created_on>
+        <sys_id>b5457669db63030077377bedbf9619bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:04:02</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="First work flow">9425f269db63030077377bedbf9619a4</workflow_version>
+        <x>25</x>
+        <y>172</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b5457669db63030077377bedbf9619bb"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">b5457669db63030077377bedbf9619bb</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 06:56:30</sys_created_on>
+        <sys_id>3d457669db63030077377bedbf9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 06:56:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Declared workflow scratchpad</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:02:18</sys_created_on>
+        <sys_id>b516f669db63030077377bedbf96194a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:04:06</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="First work flow">9425f269db63030077377bedbf9619a4</workflow_version>
+        <x>225</x>
+        <y>165</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b516f669db63030077377bedbf96194a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b516f669db63030077377bedbf96194a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:02:18</sys_created_on>
+        <sys_id>36963e29db63030077377bedbf9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:02:18</sys_updated_on>
+        <value>workflow.scratchpad.name = "Lakshmaiah Dumpala";&#13;
+workflow.info("Workflow 1: Name :"+ workflow.scratchpad.name);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b516f669db63030077377bedbf96194a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:02:18</sys_created_on>
+        <sys_id>36963e29db63030077377bedbf9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:02:18</sys_updated_on>
+        <value>workflow.scratchpad.name = "Lakshmaiah Dumpala";&#13;
+workflow.info("Workflow 1: Name :"+ workflow.scratchpad.name);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Declared workflow scratchpad">b516f669db63030077377bedbf96194a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:02:18</sys_created_on>
+        <sys_id>7a963e29db63030077377bedbf9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:02:18</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 06:56:30</sys_created_on>
+        <sys_id>bd457669db63030077377bedbf9619bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:04:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="First work flow">9425f269db63030077377bedbf9619a4</workflow_version>
+        <x>761</x>
+        <y>158</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=bd457669db63030077377bedbf9619bb"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Second Workflow - Combined two wf</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:03:47</sys_created_on>
+        <sys_id>a0f67aa9db63030077377bedbf961935</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:04:10</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="First work flow">9425f269db63030077377bedbf9619a4</workflow_version>
+        <x>495</x>
+        <y>154</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a0f67aa9db63030077377bedbf961935"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a0f67aa9db63030077377bedbf961935</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:03:47</sys_created_on>
+        <sys_id>e8f67aa9db63030077377bedbf961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:03:47</sys_updated_on>
+        <value>f6e63aa9db63030077377bedbf9619f1</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a0f67aa9db63030077377bedbf961935</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:03:47</sys_created_on>
+        <sys_id>e8f67aa9db63030077377bedbf961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:03:47</sys_updated_on>
+        <value>f6e63aa9db63030077377bedbf9619f1</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Second Workflow - Combined two wf">a0f67aa9db63030077377bedbf961935</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:03:47</sys_created_on>
+        <sys_id>60f67aa9db63030077377bedbf961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:03:47</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">7a963e29db63030077377bedbf9619d0</condition>
+        <from display_value="Declared workflow scratchpad">b516f669db63030077377bedbf96194a</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:03:54</sys_created_on>
+        <sys_id>4ef6f6a9db63030077377bedbf9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:03:54</sys_updated_on>
+        <to display_value="Second Workflow - Combined two wf">a0f67aa9db63030077377bedbf961935</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">3d457669db63030077377bedbf9619bb</condition>
+        <from display_value="Begin">b5457669db63030077377bedbf9619bb</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:02:48</sys_created_on>
+        <sys_id>86b6fa29db63030077377bedbf9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:02:48</sys_updated_on>
+        <to display_value="Declared workflow scratchpad">b516f669db63030077377bedbf96194a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">60f67aa9db63030077377bedbf961936</condition>
+        <from display_value="Second Workflow - Combined two wf">a0f67aa9db63030077377bedbf961935</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:04:18</sys_created_on>
+        <sys_id>b707f6a9db63030077377bedbf9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:04:18</sys_updated_on>
+        <to display_value="End">bd457669db63030077377bedbf9619bb</to>
+    </wf_transition>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Second Workflow - Combined two wf">a0f67aa9db63030077377bedbf961935</activity>
+        <return_map/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 07:03:47</sys_created_on>
+        <sys_id>f6e63aa9db63030077377bedbf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 07:03:47</sys_updated_on>
+        <workflow display_value="Second Workflow - Combined two wf">ab54b2e1db63030077377bedbf9619ef</workflow>
+        <workflow_version display_value="First work flow">9425f269db63030077377bedbf9619a4</workflow_version>
+    </wf_workflow_instance>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 06:56:30</sys_created_on>
+        <sys_id>fd457669db63030077377bedbf9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 06:56:30</sys_updated_on>
+        <workflow_version display_value="First work flow">9425f269db63030077377bedbf9619a4</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=b1457669db63030077377bedbf9619bb^sys_id!=9425f269db63030077377bedbf9619a4">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

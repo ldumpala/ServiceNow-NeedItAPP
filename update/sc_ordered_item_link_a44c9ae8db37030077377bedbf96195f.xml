@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_ordered_item_link">
+    <sc_ordered_item_link action="INSERT_OR_UPDATE">
+        <link_text>See order item</link_text>
+        <link_url>https://dev37912.service-now.com/nav_to.do?uri=%2Fx_74173_needit_needit_list.do%3F</link_url>
+        <name>Need it task</name>
+        <sys_class_name>sc_ordered_item_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-18 12:50:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a44c9ae8db37030077377bedbf96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Need it task</sys_name>
+        <sys_package display_value="NeedIt" source="x_74173_needit">0a51c026db85030077377bedbf96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">0a51c026db85030077377bedbf96191b</sys_scope>
+        <sys_update_name>sc_ordered_item_link_a44c9ae8db37030077377bedbf96195f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-18 12:50:11</sys_updated_on>
+        <target>_blank</target>
+    </sc_ordered_item_link>
+</record_update>

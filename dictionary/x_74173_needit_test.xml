@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="test" max_length="40" name="x_74173_needit_test" type="collection">
+        <element label="risk" max_length="40" name="risk" type="string"/>
+        <element label="test1" max_length="40" name="test1" type="boolean"/>
+        <element label="test2" max_length="40" name="test2" type="boolean"/>
+        <element label="test3" max_length="40" name="test3" type="boolean"/>
+    </element>
+</database>

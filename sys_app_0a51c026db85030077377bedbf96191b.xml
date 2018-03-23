@@ -5,11 +5,12 @@
         <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
+        <license_model>none</license_model>
         <logo/>
         <menu display_value="NeedIt">da518ca6db85030077377bedbf961951</menu>
         <name>NeedIt</name>
         <private>false</private>
-        <restrict_table_access>false</restrict_table_access>
+        <restrict_table_access>true</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_74173_needit</scope>
         <scoped_administration>false</scoped_administration>
@@ -22,9 +23,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-09-09 13:47:20</sys_created_on>
         <sys_id>0a51c026db85030077377bedbf96191b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-09 13:47:20</sys_updated_on>
+        <sys_updated_on>2017-09-14 02:22:40</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_74173_needit.user" name="x_74173_needit.user">16518ca6db85030077377bedbf961952</user_role>

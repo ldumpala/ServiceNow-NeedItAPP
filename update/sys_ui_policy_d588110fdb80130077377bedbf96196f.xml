@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_74173_needit_test">risk=300^EQ<item endquery="false" field="risk" goto="false" newquery="false" operator="=" or="false" value="300"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+		var ngr = new GlideRecord('x_74173_needit_test');
+		ngr.addQuery('sys_id','26bb509bdb37030077377bedbf9619f9');
+		ngr.query();
+		if(ngr.next()){
+			alert(" False :Record Found");
+		}else{
+			alert('False : Record Not Found');
+		}
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	var ngr = new GlideRecord('x_74173_needit_test');
+		ngr.addQuery('sys_id','26bb509bdb37030077377bedbf9619f9');
+		ngr.query();
+		if(ngr.next()){
+			alert("True : Record Found");
+		}else{
+			alert('True : Record Not Found');
+		}
+}]]></script_true>
+        <set_values/>
+        <short_description>test</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-07 12:36:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d588110fdb80130077377bedbf96196f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_74173_needit">0a51c026db85030077377bedbf96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">0a51c026db85030077377bedbf96191b</sys_scope>
+        <sys_update_name>sys_ui_policy_d588110fdb80130077377bedbf96196f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-07 12:38:10</sys_updated_on>
+        <table>x_74173_needit_test</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

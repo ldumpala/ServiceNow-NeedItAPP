@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_74173_needit_test" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>risk</element>
+            <list_id display_value="x_74173_needit_test" element="NULL" name="x_74173_needit_test" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">777e905fdb37030077377bedbf96193b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-26 16:42:48</sys_created_on>
+            <sys_id>b37e905fdb37030077377bedbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-26 16:42:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test1</element>
+            <list_id display_value="x_74173_needit_test" element="NULL" name="x_74173_needit_test" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">777e905fdb37030077377bedbf96193b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-26 16:42:48</sys_created_on>
+            <sys_id>bb7e905fdb37030077377bedbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-26 16:42:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test2</element>
+            <list_id display_value="x_74173_needit_test" element="NULL" name="x_74173_needit_test" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">777e905fdb37030077377bedbf96193b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-26 16:42:48</sys_created_on>
+            <sys_id>3f7e905fdb37030077377bedbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-26 16:42:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test3</element>
+            <list_id display_value="x_74173_needit_test" element="NULL" name="x_74173_needit_test" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">777e905fdb37030077377bedbf96193b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-26 16:42:48</sys_created_on>
+            <sys_id>bf7e905fdb37030077377bedbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-26 16:42:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_74173_needit_test</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-26 16:42:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>777e905fdb37030077377bedbf96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_74173_needit_test</sys_name>
+            <sys_package display_value="NeedIt" source="x_74173_needit">0a51c026db85030077377bedbf96191b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NeedIt">0a51c026db85030077377bedbf96191b</sys_scope>
+            <sys_update_name>sys_ui_list_x_74173_needit_test_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-26 16:42:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

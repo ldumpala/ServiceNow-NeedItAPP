@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:1dcae457db77030077377bedbf961945</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-26 17:36:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>61cae457db77030077377bedbf961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>risk</sys_name>
+        <sys_package display_value="NeedIt" source="x_74173_needit">0a51c026db85030077377bedbf96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">0a51c026db85030077377bedbf96191b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_61cae457db77030077377bedbf961957</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-26 17:36:26</sys_updated_on>
+        <table/>
+        <ui_policy display_value="test">edcae457db77030077377bedbf961954</ui_policy>
+        <variable>risk</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
